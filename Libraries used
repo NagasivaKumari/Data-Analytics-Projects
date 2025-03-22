@@ -1,0 +1,9 @@
+Streamlit: This is the primary library for building the interactive web dashboards themselves. Streamlit simplifies the process of creating web apps from Python scripts, handling the UI components and deployment.
+
+Pandas: Crucial for data manipulation and analysis. We've used Pandas DataFrames to store, clean, transform, and process the data used in our dashboards. Pandas is essential for working with structured data in Python.
+
+Plotly Express (px): The core library for creating interactive and visually appealing charts and graphs in our dashboards. We have used Plotly Express to generate line charts, bar charts, histograms, pie charts, and more within the Streamlit apps.
+
+NumPy: Used for numerical operations, particularly in the synthetic data generation parts of the code. NumPy is fundamental for working with arrays and mathematical functions in Python, and we used it to create random data distributions and perform calculations for our examples.
+
+Scikit-learn (sklearn): Specifically, we used scikit-learn.metrics in the Demand Forecasting dashboard example to calculate forecast accuracy metrics like Mean Absolute Percentage Error (MAPE) and Root Mean Squared Error (RMSE). Scikit-learn is a powerful machine learning library, and we utilized its metrics module for performance evaluation.
