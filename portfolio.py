@@ -29,3 +29,5 @@ if selected_stocks:
     st.plotly_chart(fig_stocks)
 else:
     st.write("Please select stocks to view individual performance.")
+
+
